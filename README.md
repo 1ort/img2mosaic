@@ -21,4 +21,4 @@ After launching the interface, select img2mosaic from the list of scripts on the
 ![grid-0383](https://user-images.githubusercontent.com/83316072/200169771-3dccb227-7bca-4c19-819c-a685a2d3666f.jpg)
 
 ## Credits
-The code of the method of cutting and assembling the mosaic is written using the GPT-3 Code according to my instructions
+The code of the method of cutting and assembling the mosaic is written using the GPT-3 Codex according to my instructions
