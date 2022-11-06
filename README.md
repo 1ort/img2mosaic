@@ -1,5 +1,8 @@
 # img2mosaic
 Automatic1111' Stable Diffusion webui custom script to generate mosaics from images. The script cuts the image into tiles and processes each tile separately. The size of each tile is chosen randomly
+![изображение](https://user-images.githubusercontent.com/83316072/200170437-160603de-e507-454b-8b68-69868255d7c5.png)
+![изображение](https://user-images.githubusercontent.com/83316072/200170569-0e7131e4-1da8-4caf-9cd9-5b785c9d21b0.png)
+
 
 ## Installation & usage
 Сlone or download this repo and put the `img2mosaic.py` file in a `/scripts` folder of your webui base dir.
@@ -18,4 +21,4 @@ After launching the interface, select img2mosaic from the list of scripts on the
 ![grid-0383](https://user-images.githubusercontent.com/83316072/200169771-3dccb227-7bca-4c19-819c-a685a2d3666f.jpg)
 
 ## Credits
-The code of the algorithm for cutting and assembling the mosaic is written using the GPT-3 Code according to my instructions
+The code of the method of cutting and assembling the mosaic is written using the GPT-3 Code according to my instructions
