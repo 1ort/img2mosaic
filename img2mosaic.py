@@ -58,7 +58,7 @@ def split_tile_horizontal(tile, divider, min_tile_size):
         return [Tile(tile.x_pos, tile.y_pos, tile.width, split_point), Tile(tile.x_pos, tile.y_pos + split_point, tile.width, tile.height - split_point)]
 
 
-# sorts the tiles in the list by perimeter length
+# sorts the tiles in the list by the longest size
 sort_func = lambda tile: max(tile.width, tile.height)
 
 
@@ -119,7 +119,7 @@ def cut_out_center(img, N):
     bottom = (height + new_height) // 2
     return img.crop((left, top, right, bottom))
 
-# check if divisible and cut if needed
+# check if image dimensions are divisible by N and cut if needed
 def check_and_cut(img, N):
     if is_divisible_by_N(img, N):
         return img
